@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener('DOMContentLoaded', function() {
     // Configuração: tempo em milissegundos para trocar de slide (ex: 30000 = 30 segundos)
     const tempoDeTroca = 30000; 
