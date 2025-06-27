@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<!-- Created by: Enzo Santana -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Exibição BI</title>
+    <title>Painel de Monitoramento BI</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Bem-vindo ao Site de Exibição BI</h1>
-    <p>Este é um site de demonstração para exibir informações de Business Intelligence.</p>
-    <button class="btn" onclick="testIntegration()">Clique aqui para testar integração com js</button>
+
+    <div class="report-slide active">
+        <iframe title="Relatório 1" src="https://app.powerbi.com/reportEmbed?reportId=62557058-8bdf-46eb-8c9c-f88f5ef3353c&autoAuth=true&ctid=01ee7ae0-42ba-41a5-bb7b-8d4af8db7f07" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
+
+    <div class="report-slide">
+        <iframe title="Relatório 2" src="https://app.powerbi.com/reportEmbed?reportId=69f6634b-fa6f-4198-90f0-ee80d4b59f7b&autoAuth=true&ctid=01ee7ae0-42ba-41a5-bb7b-8d4af8db7f07" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
+
+    <div class="report-slide">
+        <iframe title="Relatório 3" src="https://app.powerbi.com/reportEmbed?reportId=59679234-d45b-40f0-af5c-02e644241870&autoAuth=true&ctid=01ee7ae0-42ba-41a5-bb7b-8d4af8db7f07" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
 
     <script src="script.js"></script>
-</body>
 
+</body>
 </html>
